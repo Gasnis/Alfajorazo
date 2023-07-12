@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const productRouter = require("./productRoutes/product.route");
+const productRouter = require("./productRoute/product.route");
 const bulkRouter = require("./bulkRoute/bulk.route");
 
 // Importar todos los routers;

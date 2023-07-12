@@ -2,6 +2,13 @@ const { Product } = require("../../db")
 
 
 const products  =[
+    {
+        name: "Cordobes",
+        description: "El mejor alfajor",
+        image: "images/cordobes.png",
+        price: 200.00,
+        
+    }
 
 ]
 

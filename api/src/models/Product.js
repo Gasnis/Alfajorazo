@@ -12,19 +12,18 @@ module.exports = (sequelize) => {
     },
     name: {
         type: DataTypes.STRING, 
-        allowNull: false,
     },
     description: {
         type: DataTypes.TEXT,
-        allowNull: true,
+
     },
     image:{
         type: DataTypes.TEXT,
-        allowNull: true,
+
     },
     price:{
-        type: DataTypes.NUMBER,
-        allowNull: false,
+        type: DataTypes.FLOAT,
+
     }
 
   },{
