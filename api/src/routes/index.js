@@ -1,5 +1,6 @@
 const { Router } = require("express");
 const productRouter = require("./productRoute/product.route");
+const pedidoRouter = require("./pedidoRoute/pedido.route");
 const bulkRouter = require("./bulkRoute/bulk.route");
 
 // Importar todos los routers;
@@ -8,6 +9,7 @@ const bulkRouter = require("./bulkRoute/bulk.route");
 const router = Router();
 
 router.use("/product", productRouter); // llega la promesa y va a bucar la rura de la variable userRouter
+router.use("/pedido", pedidoRouter)
 router.use("/bulk", bulkRouter);
 
 
