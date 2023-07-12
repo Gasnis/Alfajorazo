@@ -1,4 +1,4 @@
-const { Local, User } = require("../../db");
+const { Product } = require("../../db");
 const {Router} = require("express");
 const bulkCreate = require("../../controllers/bulkController/bulk.controller");
 
@@ -15,6 +15,3 @@ router.get("/", async (req, res) => {
 
 
   module.exports = router;
-
-
-
