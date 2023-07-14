@@ -1,11 +1,11 @@
 const { Product, Pedido } = require("../../db")
-const  reydenuez = ("./images/reydenuez.jpg")
+const  reydenuez = URL("./images/reydenuez.jpg")
 
 
 const products  =[
     {
         name: "REY DE NUEZ",
-        description: "Con nuez",
+        description: "Este alfajor  está formado por dos tapas de chocolate y trocitos de nuez, con un super relleno de dulce de leche artesanal.",
         image: reydenuez,
         price: 400.00,
 
@@ -13,10 +13,16 @@ const products  =[
 
     {
         name: "REY DE NUEZ XL",
-        description: "Con nuez",
+        description: "Este alfajor  está formado por dos tapas de chocolate y trocitos de nuez, con un super relleno de dulce de leche artesanal.",
         image: reydenuez,
         price: 600.00,
 
+    },
+    {
+        name: "REY DE NUEZ XL",
+        description: "Con nuez",
+        image: reydenuez,
+        price: 600.00,
     }
 
 ]

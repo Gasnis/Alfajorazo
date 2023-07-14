@@ -1,14 +1,14 @@
 import axios from "axios";
 
-export const GET_USER = "GET_USER";
+export const GET_PRODUCTS = "GET_PRODUCTS";
 
 
 
-export const getUser = () => {
+export const getProducts = () => {
     return async (dispatch) => {
-        const { data } = await axios.get(`/user`);
+        const { data } = await axios.get(`/products`);
         return dispatch({
-            type: GET_USER,
+            type: GET_PRODUCTS,
             payload: data
         })
     }

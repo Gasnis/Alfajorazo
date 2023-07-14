@@ -86,14 +86,12 @@
    } */
    
 .info{
-  background-image: url(../../utils/Home2.png);
   background-repeat: repeat-y;
   height: 100%;
   transition: all 0.5s ease;
 }
 
 .infodark{
-  background-image: url("../../utils/HomeDark2.png");
   background-size: repeat-y;
   background-color: #2A2A2B;
   height: 100%;

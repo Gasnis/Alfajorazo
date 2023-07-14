@@ -13,6 +13,13 @@ module.exports = (sequelize) => {
     clientName: {
         type: DataTypes.STRING, 
     },
+    email: {
+      type: DataTypes.STRING,
+    },
+    numberPhone: {
+      type: DataTypes.INTEGER,
+    },
+
     products: {
         type: DataTypes.JSONB, 
         defaultValue: {}
@@ -21,6 +28,9 @@ module.exports = (sequelize) => {
     totalPrice:{
         type: DataTypes.FLOAT,
         
+    },
+    address:{
+      type: DataTypes.STRING,
     },
     date:{
         type: DataTypes.DATE,
