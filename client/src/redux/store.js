@@ -10,7 +10,7 @@ const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['products']
+  whitelist: []
 
 }
 const persistedReducer = persistReducer(persistConfig, rootReducer)

@@ -1,25 +1,20 @@
 .principalDiv{
   align-items: center;
+  margin: auto 0;
+  background-color: #413A20;
 }
 
 .fondo {
-  margin: auto 0;
-  background: url("https://anonfiles.com/BaN4f3U3y8/Sol_png") no-repeat 50% 18.5%;
+ 
 }
 
 .cardsContainer {
+  position: relative;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+  justify-content: center;
+  grid-template-columns: auto auto auto;
   /* margin-left: 55px;
   margin-right: 55px; */
-}
-
-@media (max-width: 550px){
-  .cardsContainer{
-     display: flex;
-     flex-direction: column;
-  }
 }
 
 
@@ -73,137 +68,9 @@
      0 12px 10px -3px #FFB800;
    }
 
-   .cargando h1{
-    font-size: 50px;
-    margin: 0px;
-    color: white;
-   }
-/* 
-   .cargandodark h1{
-    font-size: 50px;
-    margin: 0px;
-    color: black;
-   } */
-   
 .info{
   background-repeat: repeat-y;
   height: 100%;
   transition: all 0.5s ease;
-}
-
-.infodark{
-  background-size: repeat-y;
-  background-color: #2A2A2B;
-  height: 100%;
-  width: 100%;
-  transition: all 0.5s ease;
-}
-
-.filtercontainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 2px;
-    align-items: center;
-    flex-wrap: nowrap;
-    background-color:  #FCF9EB;
-}
-
-.filter{
-    color: #797979;
-    padding: 0.7em 1.7em;
-    margin: 10px;
-    font-size: 12px;
-    border-radius: 0.5em;
-    background: #e8e8e8;
-    border: 1px solid #e8e8e8;
-    transition: all .3s;
-   }
-
-.limpiar{
-    color: #797979;
-    padding: 0.7em 1.7em;
-    margin: 10px;
-    font-size: 12px;
-    border-radius: 0.5em;
-    background: #e8e8e8;
-    border: 1px solid #e8e8e8;
-    transition: all .3s;
-}
-.limpiar:hover{
-    color: #e0e0e0;
-    background-color: #FDFBF2;
-    cursor:pointer;
-}
-
-.centrarSearch {
-  display: flex;
-  justify-content: center;
-}
-
-.searchBarContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: center;
-  margin-top: 1.5em;
-  border: solid 1.2px #40047C;
-  border-radius: 1em;
-  width: 40em;
-  padding: 0.5em;
-  height: 25px;
-}
-
-.searchBarContainerDark {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: center;
-  margin-top: 1.5em;
-  border: solid 1.2px #FDFBF2;
-  border-radius: 1em;
-  width: 40em;
-  padding: 0.5em;
-  height: 25px;
-}
-
-.searchbar {
-  color: #000000;
-  margin-inline: 35px;
-  font-size: 18px;
-  border-style: none;
-  background-color: transparent;
-  width: 100%;
-}
-@media (max-width: 550px){
-  .searchbar{
-     width: 95%;
-     /* margin: 25px 10px 13px 10px; */
-  }
-}
-
-.icon {
-  transform: scale(1.1);
-  fill: #40047C;
-}
-.iconDark {
-  transform: scale(1.1);
-  fill: #FCF9EB;
-}
-
-.searchbardark {
-  color: #f3f3f3;
-  margin-inline: 35px;
-  font-size: 18px;
-  border-style: none;
-  background: transparent;
-  width: 100%;
-}
-@media (max-width: 550px){
-  .searchbardark{
-     width: 95%;
-     margin: 25px 10px 13px 10px;
-     
-  }
 }
 
