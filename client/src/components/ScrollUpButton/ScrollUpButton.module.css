@@ -4,7 +4,7 @@
     right: 2em;
     height: 4em;
     width: 4em;
-    border-radius: 11px;
+    border-radius: 20px;
     background-color: #2d201a;
     color: #FDFBF2;
     z-index: 3;
@@ -23,7 +23,7 @@
     .scrollButton{
         position: fixed;
         bottom: 5em;
-        right: 1em;
+        right: 2em;
         z-index: 3;
     }
   }

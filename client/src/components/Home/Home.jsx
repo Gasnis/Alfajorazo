@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import style from "./home.module.css";
 import CardB from "../Card/Card.jsx";
 import { getProducts } from "../../redux/actions";
 import ScrollUpButtom from "../ScrollUpButton/ScrollUpButton.jsx";
-import { IoSearch } from "react-icons/io5";
+// import { IoSearch } from "react-icons/io5";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Spinner } from "reactstrap";
 import NavbarRes from "../Navbar/Navbar.jsx";
@@ -19,14 +19,14 @@ export default function Home() {
 		dispatch(getProducts());
 	}, [dispatch]);
 
-	const [currentPlaces, setCurrentPlaces] = useState(9);
+	// const [currentPlaces, setCurrentPlaces] = useState(9);
 
-	function handlePlace(e) {
-		e.preventDefault();
-		setCurrentPlaces(currentPlaces + 9);
-	}
+	// function handlePlace(e) {
+	// 	e.preventDefault();
+	// 	setCurrentPlaces(currentPlaces + 9);
+	// }
 
-	let renderProducts = products.slice(0, currentPlaces);
+	// let renderProducts = products.slice(0, currentPlaces);
 
 	return (
 		<div className={style.principalDiv}>

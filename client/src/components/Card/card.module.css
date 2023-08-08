@@ -1,0 +1,5 @@
+.card:hover{
+    border-color: rgb(255, 146, 87);
+    box-shadow: 4px 4px 20px 76px rgb(6, 6, 6);
+    cursor: pointer;
+}

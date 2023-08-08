@@ -12,20 +12,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const items = [
   {
     src: 'https://cdn.shopify.com/s/files/1/0584/3887/7381/collections/Product-Banner_Alfajores-scaled_1200x1200.jpg?v=1625775435',
-    altText: 'Slide 1',
-    caption: 'Slide 1',
     key: 1,
   },
   {
     src: 'https://5f35505073.cbaul-cdnwnd.com/b3f1ac6acb8ff55c60af4d07bf114f0d/200000100-c8841c97b6/banner2-1.jpg?ph=5f35505073',
-    altText: 'Slide 2',
-    caption: 'Slide 2',
     key: 2,
   },
   {
     src: 'https://dolcentina.com/storage/slider_images/Dolcentina/SKctZ7cHuNe1fv1LwhqmsW1bjHCChI8Z2vee2TO4.png',
-    altText: 'Slide 3',
-    caption: 'Slide 3',
     key: 3,
   },
 ];

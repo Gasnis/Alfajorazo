@@ -1,7 +1,7 @@
 .principalDiv{
   align-items: center;
   margin: auto 0;
-  background-color: #413A20;
+  background-color: #ffffff;
 }
 
 .fondo {
@@ -10,9 +10,10 @@
 
 .cardsContainer {
   position: relative;
-  display: grid;
+  display: flex;
   justify-content: center;
-  grid-template-columns: auto auto auto;
+  flex-direction: row;
+  flex-wrap: wrap;
   /* margin-left: 55px;
   margin-right: 55px; */
 }
